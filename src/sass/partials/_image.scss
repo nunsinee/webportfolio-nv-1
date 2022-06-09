@@ -3,6 +3,7 @@
 	background-color: transparent;
 	border: none;
 	border-radius: 0;
+	height: 50%;
 }
 
 .img-filtered {
@@ -16,7 +17,7 @@
 .box-about {
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 3em;
+	padding: 1em;
 	position: relative;
 	background: linear-gradient($colour-primary, $white);
 

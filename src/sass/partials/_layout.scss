@@ -22,7 +22,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	padding-top: 2em;
+	padding-top: 1em;
 	@media (max-width: $tablet) {
 		max-width: 100%;
 		padding-top: 1em;
@@ -118,7 +118,7 @@ body {
 	box-shadow: 1px 1px 1px 1px rgba($secondary, 0.6);
 
 	&:hover {
-		background-color: getColour(icon);
+		background-color: getColour(accent);
 	}
 }
 

@@ -59,3 +59,21 @@
 	border: none;
 	list-style-type: square;
 }
+
+.btn-light {
+	&--project-link {
+		color: getColour(darkPrimary);
+		&:hover {
+			font-weight: bold;
+		}
+	}
+}
+
+.btn-warning {
+	&--project-link {
+		color: getColour(darkPrimary);
+		&:hover {
+			font-weight: bold;
+		}
+	}
+}

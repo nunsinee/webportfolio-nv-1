@@ -13,7 +13,7 @@ export default function About() {
 				<hr />
 				<Container className="content">
 					<Row>
-						<Col xs={12} lg={6} className="col-content">
+						<Col xs={12} lg={4} className="col-content">
 							<Paragraph>
 								Hi, I am <b>Nunsinee Viken</b> and I currently
 								studying front-end web development at NOROFF and
@@ -44,9 +44,10 @@ export default function About() {
 								know me even more.
 							</Paragraph>
 						</Col>
-
-						<Col xs={12} lg={6}>
+						<Col xs={12} lg={4}>
 							<AboutPhoto />
+						</Col>
+						<Col xs={12} lg={4}>
 							<SubHeading subtitle="Skills & Level" />
 							<SkillLists />
 							<a
