@@ -1,0 +1,57 @@
+.menu {
+	@include navgradient;
+	font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: getColour(accent);
+	font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: $white;
+	font-weight: 300;
+
+	@media (max-width: $desktop) {
+		color: $white;
+	}
+}
+
+.navbar-brand img {
+	width: 100px;
+}
+
+@media (max-width: $desktop) {
+	.navbar > .container {
+		width: 100%;
+		padding: 0;
+	}
+
+	.navbar-collapse {
+		//@include gradient-white;
+		padding-left: 1em;
+	}
+
+	.nav-item {
+		padding-left: 1em;
+	}
+
+	.navbar-toggler {
+		margin-right: 0.5em;
+	}
+
+	.navbar-brand {
+		margin-left: 0.5em;
+	}
+
+	.navbar {
+		padding-bottom: 0;
+	}
+
+	.navbar-dark .navbar-nav .nav-link.active,
+	.navbar-dark .navbar-nav .nav-link:hover {
+		color: getColour(accent);
+		font-weight: 600;
+	}
+}

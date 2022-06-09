@@ -1,0 +1,45 @@
+//Fonts Overwrite
+
+$headning-font-family: "Merriweather", serif;
+$font-family-base: "Lato", sans-serif;
+
+$colour-primary: #033e57;
+$grey: #cac2c2;
+$black: #000000;
+$white: #ffffff;
+
+//Custom Bootstrap colours
+$secondary: #a6995b;
+$copy: #333333;
+$darkbtn: #0a0909;
+$icon: #a1cbfa;
+
+//Theme
+$colours: (
+	accent: #f4e083,
+	orange: #f74f0c,
+	grey: #efefef,
+	darkPrimary: #023246,
+);
+
+@function getColour($colour) {
+	@return map-get($colours, $colour);
+}
+
+//New Varaibles
+$borderRadius: 5px;
+$borderBtnRadius: 30px;
+$borderCircleRadius: 50%;
+
+//Webresponsive elements
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$large: 1400px;
+
+////////////////////////////////////////////////////////////////
+
+$theme-colors: (
+	"primary": $colour-primary,
+	"dark": $colour-primary,
+);

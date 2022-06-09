@@ -1,0 +1,32 @@
+.contact-container {
+	margin: 1em 2em 2em 2em;
+
+	& div {
+		margin-bottom: 1em;
+	}
+}
+
+.contact-list {
+	display: flex;
+	margin-top: 0.25em;
+	justify-items: center;
+	align-items: center;
+}
+
+.icon-contact {
+	font-size: 1.2rem;
+	color: $colour-primary;
+	font-weight: 300;
+	margin-right: 0.25em;
+}
+
+.alert-custom {
+	background: getColour(icon);
+	color: $primary;
+	border: 2px solid $primary;
+}
+
+form {
+	max-width: 100%;
+	width: 400px;
+}

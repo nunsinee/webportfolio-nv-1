@@ -1,0 +1,40 @@
+.img-thumbnail {
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+}
+
+.img-filtered {
+	filter: drop-shadow(10px 10px 2px $colour-primary);
+}
+
+.image-aboutme {
+	box-shadow: 0 -5px 3px -3px $primary, 0 5px 3px -3px $colour-primary;
+}
+
+.box-about {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 3em;
+	position: relative;
+	background: linear-gradient($colour-primary, $white);
+
+	& > img {
+		opacity: 0.8;
+		object-fit: cover;
+	}
+}
+
+.text-about {
+	color: $colour-primary;
+	position: absolute;
+	text-align: center;
+	bottom: 1rem;
+	left: 0;
+	right: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}

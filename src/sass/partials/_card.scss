@@ -1,0 +1,61 @@
+.skills-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.card-icon {
+	background-color: transparent;
+	color: $colour-primary;
+	border-radius: $borderBtnRadius;
+	border: 1px solid $colour-primary;
+	padding: 0.25em 0.6rem;
+	max-width: 100%;
+	text-align: center;
+	margin: 0.5em 0.1em;
+
+	&:hover {
+		color: $white;
+	}
+}
+
+.card {
+	@include gradient-light;
+	height: 100%;
+	filter: drop-shadow(0 0 0.2rem $copy);
+}
+
+.weblink-container {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+
+.card-img-top {
+	width: 100%;
+	object-fit: cover;
+	border: 1px solid getColour(grey);
+}
+
+.card-text {
+	margin-top: 0.5em;
+	color: $copy;
+}
+
+.marginBottom {
+	margin-bottom: 2em;
+	@media (max-width: $mobile) {
+		margin: 1em 0;
+	}
+}
+
+.list-group-item {
+	position: relative;
+	display: block;
+	padding: 0.5rem 1rem;
+	color: $colour-primary;
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	list-style-type: square;
+}
