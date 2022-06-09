@@ -93,8 +93,8 @@ export default function Cards() {
 				altText="Rainnydays Rain Jackets"
 				name="Rainnydays Rain Jackets"
 				text="ImageSlides by Vanilla JS, JavaScripts, E-commerce"
-				githublink="https://rainnydays-nunsinee.netlify.app/"
-				liveweb="https://github.com/nunsinee/rainydays"
+				githublink="https://github.com/nunsinee/rainydays"
+				liveweb="https://rainnydays-nunsinee.netlify.app/"
 			/>
 			<PortfolioCard
 				pic={Pic_06}
