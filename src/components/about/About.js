@@ -5,6 +5,8 @@ import SubHeading from "../typography/SubHeading";
 import SkillLists from "./SkillLists";
 import AboutPhoto from "./AboutPhoto";
 
+import myPDF from "../../assets/download-file/cv_nunsinee_viken.pdf";
+
 export default function About() {
 	return (
 		<>
@@ -50,14 +52,8 @@ export default function About() {
 						<Col xs={12} lg={4}>
 							<SubHeading subtitle="Skills & Level" />
 							<SkillLists />
-							<a
-								href="../../assets/download-file/cv_nunsinee_viken.pdf"
-								download
-							>
-								<SubHeading
-									subtitle="Download Resume"
-									downloading
-								/>
+							<a href={myPDF} download="cv_nunsinee_viken.pdf">
+								<SubHeading subtitle="Download Resume" />
 							</a>
 						</Col>
 					</Row>
