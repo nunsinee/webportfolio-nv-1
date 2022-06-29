@@ -7,7 +7,7 @@ export default function AboutPhoto() {
 				<img
 					src={Nunsinee}
 					alt="nunsinee viken"
-					className="img-fluid img-thumbnail"
+					className="img-thumbnail"
 				/>
 				<div className="text-about">
 					<div>

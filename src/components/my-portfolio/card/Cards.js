@@ -8,7 +8,6 @@ import Pic_06 from "../../../assets/images/projects_img/flowerpower.jpeg";
 import Pic_07 from "../../../assets/images/projects_img/yey-company.jpg";
 import Pic_08 from "../../../assets/images/projects_img/Holidaze.jpg";
 import Pic_09 from "../../../assets/images/projects_img/flower_information.jpg";
-import Pic_10 from "../../../assets/images/projects_img/js_framework_2.jpg";
 import Pic_11 from "../../../assets/images/projects_img/webportfolio-2.jpg";
 
 export default function Cards() {
@@ -19,7 +18,7 @@ export default function Cards() {
 				altText="Holidaze Bergen Hotel Booking"
 				name="Holidaze Bergen Hotel Booking "
 				text="React,React-bootstrap,Heroku, Strapi Sass,Login Form"
-				githublink="https://github.com/Noroff-FEU-Assignments/project-exam-2-nunsinee"
+				githublink="https://github.com/nunsinee/holidaze-hotel-booking"
 				liveweb="https://nv-exam-project-2.netlify.app/hotel"
 			/>
 			<PortfolioCard
@@ -28,14 +27,14 @@ export default function Cards() {
 				name="Yey Company Web Design "
 				text="React-bootstrap, Styled-component, Web-responsive"
 				githublink="https://github.com/nunsinee/css-frameworks-ca-nv"
-				liveweb="https://vercel.com/nunsinee/css-frameworks-ca-nv"
+				liveweb="https://css-frameworks-ca-nv.vercel.app/"
 			/>
 			<PortfolioCard
 				pic={Pic_09}
 				altText="Flower Information"
 				name="Flower Information "
 				text="React,React-bootstrap,Strapi Sass,Login Form"
-				githublink="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-nunsinee"
+				githublink="https://github.com/nunsinee/flowers-info"
 				liveweb="https://nv-js-frameworks-2.netlify.app/"
 			/>
 
@@ -46,15 +45,6 @@ export default function Cards() {
 				text="Next.js, React, Sass, React-Bootstrap"
 				githublink="https://github.com/nunsinee/webportfolio-2"
 				liveweb="https://webportfolio-2.vercel.app/"
-			/>
-
-			<PortfolioCard
-				pic={Pic_10}
-				altText="Flower Information"
-				name="Flower Information"
-				text="Api, Login Form, React"
-				githublink="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-nunsinee"
-				liveweb="https://nv-js-frameworks-2.netlify.app/"
 			/>
 			<PortfolioCard
 				pic={Pic_01}
